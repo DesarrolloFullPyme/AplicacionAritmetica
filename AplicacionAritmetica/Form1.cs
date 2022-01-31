@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace AplicacionAritmetica
 {
@@ -17,5 +9,18 @@ namespace AplicacionAritmetica
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, System.EventArgs e)
+        {
+            int valor1;
+            int valor2;
+            int resultado;
+
+            valor1 = int.Parse(txtValor1.Text);
+            valor2 = int.Parse(txtValor2.Text);
+
+            resultado = valor1 + valor2;
+
+            lblResultado.Text = resultado.ToString();
+        }
     }
 }
