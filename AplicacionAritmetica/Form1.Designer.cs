@@ -66,8 +66,8 @@ namespace AplicacionAritmetica
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.textvalor2 = new System.Windows.Forms.TextBox();
-            this.textvalor1 = new System.Windows.Forms.TextBox();
+            this.text2 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -426,8 +426,8 @@ namespace AplicacionAritmetica
             this.groupBox4.Controls.Add(this.label24);
             this.groupBox4.Controls.Add(this.label23);
             this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Controls.Add(this.textvalor2);
-            this.groupBox4.Controls.Add(this.textvalor1);
+            this.groupBox4.Controls.Add(this.text2);
+            this.groupBox4.Controls.Add(this.txt1);
             this.groupBox4.Controls.Add(this.label22);
             this.groupBox4.Controls.Add(this.label21);
             this.groupBox4.Controls.Add(this.label20);
@@ -471,19 +471,19 @@ namespace AplicacionAritmetica
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textvalor2
+            // text2
             // 
-            this.textvalor2.Location = new System.Drawing.Point(421, 83);
-            this.textvalor2.Name = "textvalor2";
-            this.textvalor2.Size = new System.Drawing.Size(82, 23);
-            this.textvalor2.TabIndex = 5;
+            this.text2.Location = new System.Drawing.Point(421, 83);
+            this.text2.Name = "text2";
+            this.text2.Size = new System.Drawing.Size(82, 23);
+            this.text2.TabIndex = 5;
             // 
-            // textvalor1
+            // txt1
             // 
-            this.textvalor1.Location = new System.Drawing.Point(289, 83);
-            this.textvalor1.Name = "textvalor1";
-            this.textvalor1.Size = new System.Drawing.Size(82, 23);
-            this.textvalor1.TabIndex = 4;
+            this.txt1.Location = new System.Drawing.Point(289, 83);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(82, 23);
+            this.txt1.TabIndex = 4;
             // 
             // label22
             // 
@@ -595,8 +595,8 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textvalor2;
-        private System.Windows.Forms.TextBox textvalor1;
+        private System.Windows.Forms.TextBox text2;
+        private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;

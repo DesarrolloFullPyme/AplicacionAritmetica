@@ -52,9 +52,6 @@ namespace AplicacionAritmetica
            
         }
 
-        private void groupBox2_Enter(object sender, System.EventArgs e)
-        {
-
-        }
+        
     }
 }
