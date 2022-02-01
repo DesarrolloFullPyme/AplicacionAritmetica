@@ -52,7 +52,6 @@ namespace AplicacionAritmetica
            
         }
 
-<<<<<<< HEAD
         private void button2_Click(object sender, System.EventArgs e)
         {
             int valorvale1;
@@ -66,8 +65,6 @@ namespace AplicacionAritmetica
 
             lblresultadov.Text = resultadovale.ToString();
         }
-=======
         
->>>>>>> 4c40c9437fc2c25d1a1573e7defa117417883088
     }
 }

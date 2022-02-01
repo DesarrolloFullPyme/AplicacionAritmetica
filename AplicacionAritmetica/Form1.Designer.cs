@@ -29,7 +29,6 @@ namespace AplicacionAritmetica
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -63,23 +62,9 @@ namespace AplicacionAritmetica
             this.txtvalorv1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
-=======
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.text2 = new System.Windows.Forms.TextBox();
-            this.txt1 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
->>>>>>> 4c40c9437fc2c25d1a1573e7defa117417883088
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -218,17 +203,6 @@ namespace AplicacionAritmetica
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Bloque Jonnathan";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(29, 61);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(141, 17);
-            this.label18.TabIndex = 9;
-            this.label18.Text = "Calculadora Jonathan";
             // 
             // label18
             // 
@@ -437,15 +411,6 @@ namespace AplicacionAritmetica
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox4.Controls.Add(this.label24);
-            this.groupBox4.Controls.Add(this.label23);
-            this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Controls.Add(this.text2);
-            this.groupBox4.Controls.Add(this.txt1);
-            this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Controls.Add(this.label21);
-            this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.label19);
             this.groupBox4.Location = new System.Drawing.Point(12, 498);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(761, 174);
@@ -453,110 +418,12 @@ namespace AplicacionAritmetica
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Bloque Cecilia";
             // 
-<<<<<<< HEAD
-=======
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(543, 83);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(37, 21);
-            this.label24.TabIndex = 8;
-            this.label24.Text = "000";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label23.Location = new System.Drawing.Point(517, 86);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(20, 20);
-            this.label23.TabIndex = 7;
-            this.label23.Text = "=";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(600, 83);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "SUMAR";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // text2
-            // 
-            this.text2.Location = new System.Drawing.Point(421, 83);
-            this.text2.Name = "text2";
-            this.text2.Size = new System.Drawing.Size(82, 23);
-            this.text2.TabIndex = 5;
-            // 
-            // txt1
-            // 
-            this.txt1.Location = new System.Drawing.Point(289, 83);
-            this.txt1.Name = "txt1";
-            this.txt1.Size = new System.Drawing.Size(82, 23);
-            this.txt1.TabIndex = 4;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(382, 81);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(21, 21);
-            this.label22.TabIndex = 3;
-            this.label22.Text = "+";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(417, 47);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(63, 21);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "Valor 2";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(301, 47);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(63, 21);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Valor 1";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(29, 47);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(163, 21);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "CALCULADORA CECI";
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
->>>>>>> 4c40c9437fc2c25d1a1573e7defa117417883088
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(800, 696);
+            this.ClientSize = new System.Drawing.Size(729, 670);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -569,8 +436,6 @@ namespace AplicacionAritmetica
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
