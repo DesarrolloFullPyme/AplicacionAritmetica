@@ -28,20 +28,23 @@ namespace AplicacionAritmetica
 
         }
 
-        private void button2_Click(object sender, System.EventArgs e)
+        private void label13_Click(object sender, System.EventArgs e)
         {
-            int valorvale1;
-            int valorvale2;
-            int resultadovale;
 
-            valorvale1 = int.Parse(txtvalorv1.Text);
-            valorvale2 = int.Parse(txtvalorv2.Text);
+        }
 
-            resultadovale = valorvale1 + valorvale2;
+        private void button3_Click(object sender, System.EventArgs e)
+        {
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
 
-            lblresultadov.Text=resultadovale.ToString();
+            resultado = val1+ val2;
 
+            lblRes.Text = resultado.ToString();
 
+           
+            
         }
     }
 }
