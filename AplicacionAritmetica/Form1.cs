@@ -32,5 +32,19 @@ namespace AplicacionAritmetica
         {
 
         }
+
+        private void button3_Click(object sender, System.EventArgs e)
+        {
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1+ val2;
+
+            lblRes.Text = resultado.ToString();
+
+           
+            
+        }
     }
 }
