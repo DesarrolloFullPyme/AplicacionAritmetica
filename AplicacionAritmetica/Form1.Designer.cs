@@ -41,18 +41,29 @@ namespace AplicacionAritmetica
             this.txtValor1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtVal2 = new System.Windows.Forms.TextBox();
+            this.txtVal1 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblRes = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -176,12 +187,105 @@ namespace AplicacionAritmetica
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox2.Controls.Add(this.label18);
+            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.txtVal2);
+            this.groupBox2.Controls.Add(this.txtVal1);
+            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.lblRes);
+            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Location = new System.Drawing.Point(12, 138);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(761, 174);
+            this.groupBox2.Size = new System.Drawing.Size(761, 148);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Bloque Jonnathan";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(421, 95);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(17, 17);
+            this.label17.TabIndex = 8;
+            this.label17.Text = "+";
+            // 
+            // txtVal2
+            // 
+            this.txtVal2.Location = new System.Drawing.Point(450, 89);
+            this.txtVal2.Name = "txtVal2";
+            this.txtVal2.Size = new System.Drawing.Size(72, 23);
+            this.txtVal2.TabIndex = 7;
+            // 
+            // txtVal1
+            // 
+            this.txtVal1.Location = new System.Drawing.Point(332, 88);
+            this.txtVal1.Name = "txtVal1";
+            this.txtVal1.Size = new System.Drawing.Size(72, 23);
+            this.txtVal1.TabIndex = 6;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.Location = new System.Drawing.Point(463, 47);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(47, 17);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "Valor2";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label14.Location = new System.Drawing.Point(350, 47);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(47, 17);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Valor1";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(536, 89);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(15, 15);
+            this.label15.TabIndex = 3;
+            this.label15.Text = "=";
+            // 
+            // lblRes
+            // 
+            this.lblRes.AutoSize = true;
+            this.lblRes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblRes.Location = new System.Drawing.Point(567, 89);
+            this.lblRes.Name = "lblRes";
+            this.lblRes.Size = new System.Drawing.Size(29, 17);
+            this.lblRes.TabIndex = 2;
+            this.lblRes.Text = "000";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(463, 19);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(47, 15);
+            this.label13.TabIndex = 1;
+            this.label13.Text = "SUMAR";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(657, 85);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "SUMAR";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox3
             // 
@@ -202,53 +306,47 @@ namespace AplicacionAritmetica
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Bloque Valeria";
             // 
-            // groupBox4
+            // button2
             // 
-            this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox4.Location = new System.Drawing.Point(12, 498);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(761, 174);
-            this.groupBox4.TabIndex = 5;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Bloque Cecilia";
+            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(600, 88);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 30);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Sumar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // label7
+            // label12
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(62, 90);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(182, 25);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Calculadora Valeria";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(546, 92);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(37, 21);
+            this.label12.TabIndex = 7;
+            this.label12.Text = "000";
             // 
-            // textBox1
+            // label11
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(301, 89);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(84, 29);
-            this.textBox1.TabIndex = 1;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label11.Location = new System.Drawing.Point(518, 86);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(28, 30);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "=";
             // 
-            // textBox2
+            // label10
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(424, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(83, 29);
-            this.textBox2.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(316, 59);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 20);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Valor 1";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(392, 86);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(28, 30);
+            this.label10.TabIndex = 5;
+            this.label10.Text = "+";
             // 
             // label9
             // 
@@ -261,47 +359,63 @@ namespace AplicacionAritmetica
             this.label9.TabIndex = 4;
             this.label9.Text = "Valor 2";
             // 
-            // label10
+            // label8
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(392, 86);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 30);
-            this.label10.TabIndex = 5;
-            this.label10.Text = "+";
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(316, 59);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 20);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Valor 1";
             // 
-            // label11
+            // textBox2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(518, 86);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 30);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "=";
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox2.Location = new System.Drawing.Point(424, 89);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(83, 29);
+            this.textBox2.TabIndex = 2;
             // 
-            // label12
+            // textBox1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(546, 92);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(37, 21);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "000";
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(301, 89);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(84, 29);
+            this.textBox1.TabIndex = 1;
             // 
-            // button2
+            // label7
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(600, 88);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 30);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Sumar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(62, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(182, 25);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Calculadora Valeria";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox4.Location = new System.Drawing.Point(12, 498);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(761, 174);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Bloque Cecilia";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.Location = new System.Drawing.Point(29, 61);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(141, 17);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "Calculadora Jonathan";
             // 
             // Form1
             // 
@@ -317,6 +431,8 @@ namespace AplicacionAritmetica
             this.Text = "Operaciones aritmeticas";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -347,6 +463,16 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtVal2;
+        private System.Windows.Forms.TextBox txtVal1;
+        private System.Windows.Forms.Label label18;
     }
 }
 
