@@ -39,12 +39,22 @@ namespace AplicacionAritmetica
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
 
-            resultado = val1+ val2;
+            resultado = val1 + val2;
 
             lblRes.Text = resultado.ToString();
 
+
+
+        }
+
+        private void button4_Click(object sender, System.EventArgs e)
+        {
            
-            
+        }
+
+        private void groupBox2_Enter(object sender, System.EventArgs e)
+        {
+
         }
     }
 }
