@@ -27,5 +27,10 @@ namespace AplicacionAritmetica
         {
 
         }
+
+        private void label13_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
