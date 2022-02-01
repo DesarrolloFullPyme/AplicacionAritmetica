@@ -22,5 +22,10 @@ namespace AplicacionAritmetica
 
             lblResultado.Text = resultado.ToString();
         }
+
+        private void label7_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
