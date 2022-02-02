@@ -65,6 +65,9 @@ namespace AplicacionAritmetica
             this.txtvalorv1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -303,6 +306,9 @@ namespace AplicacionAritmetica
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox3.Controls.Add(this.label26);
+            this.groupBox3.Controls.Add(this.label25);
+            this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.button7);
             this.groupBox3.Controls.Add(this.button6);
             this.groupBox3.Controls.Add(this.button5);
@@ -398,7 +404,7 @@ namespace AplicacionAritmetica
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(392, 86);
+            this.label10.Location = new System.Drawing.Point(388, 86);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(28, 30);
             this.label10.TabIndex = 5;
@@ -462,6 +468,36 @@ namespace AplicacionAritmetica
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Bloque Cecilia";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label12.Location = new System.Drawing.Point(391, 56);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(25, 32);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "*";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label25.Location = new System.Drawing.Point(392, 23);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(24, 32);
+            this.label25.TabIndex = 13;
+            this.label25.Text = "-";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label26.Location = new System.Drawing.Point(391, 123);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(20, 25);
+            this.label26.TabIndex = 14;
+            this.label26.Text = "/";
             // 
             // Form1
             // 
@@ -532,6 +568,9 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label12;
     }
 }
 
