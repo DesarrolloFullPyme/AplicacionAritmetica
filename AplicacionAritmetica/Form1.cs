@@ -49,7 +49,7 @@ namespace AplicacionAritmetica
 
         private void button4_Click(object sender, System.EventArgs e)
         {
-           
+
         }
 
         private void button2_Click(object sender, System.EventArgs e)
