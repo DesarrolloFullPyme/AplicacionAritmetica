@@ -41,8 +41,11 @@ namespace AplicacionAritmetica
             this.txtValor1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnDividir = new System.Windows.Forms.Button();
+            this.btnRestar = new System.Windows.Forms.Button();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblSin = new System.Windows.Forms.Label();
             this.txtVal2 = new System.Windows.Forms.TextBox();
             this.txtVal1 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -187,8 +190,11 @@ namespace AplicacionAritmetica
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox2.Controls.Add(this.btnDividir);
+            this.groupBox2.Controls.Add(this.btnRestar);
+            this.groupBox2.Controls.Add(this.btnMultiplicar);
             this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.lblSin);
             this.groupBox2.Controls.Add(this.txtVal2);
             this.groupBox2.Controls.Add(this.txtVal1);
             this.groupBox2.Controls.Add(this.label16);
@@ -204,6 +210,36 @@ namespace AplicacionAritmetica
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Bloque Jonnathan";
             // 
+            // btnDividir
+            // 
+            this.btnDividir.Location = new System.Drawing.Point(657, 22);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.Size = new System.Drawing.Size(75, 23);
+            this.btnDividir.TabIndex = 12;
+            this.btnDividir.Text = "DIVIDIR";
+            this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            // 
+            // btnRestar
+            // 
+            this.btnRestar.Location = new System.Drawing.Point(657, 79);
+            this.btnRestar.Name = "btnRestar";
+            this.btnRestar.Size = new System.Drawing.Size(75, 23);
+            this.btnRestar.TabIndex = 11;
+            this.btnRestar.Text = "RESTAR";
+            this.btnRestar.UseVisualStyleBackColor = true;
+            this.btnRestar.Click += new System.EventHandler(this.btnRestar_Click);
+            // 
+            // btnMultiplicar
+            // 
+            this.btnMultiplicar.Location = new System.Drawing.Point(650, 51);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.Size = new System.Drawing.Size(93, 23);
+            this.btnMultiplicar.TabIndex = 10;
+            this.btnMultiplicar.Text = "MULTIPLICAR";
+            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -214,15 +250,15 @@ namespace AplicacionAritmetica
             this.label18.TabIndex = 9;
             this.label18.Text = "Calculadora Jonathan";
             // 
-            // label17
+            // lblSin
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(421, 95);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 17);
-            this.label17.TabIndex = 8;
-            this.label17.Text = "+";
+            this.lblSin.AutoSize = true;
+            this.lblSin.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSin.Location = new System.Drawing.Point(417, 90);
+            this.lblSin.Name = "lblSin";
+            this.lblSin.Size = new System.Drawing.Size(17, 17);
+            this.lblSin.TabIndex = 8;
+            this.lblSin.Text = "+";
             // 
             // txtVal2
             // 
@@ -289,7 +325,7 @@ namespace AplicacionAritmetica
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(657, 85);
+            this.button3.Location = new System.Drawing.Point(657, 108);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 0;
@@ -470,7 +506,7 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblRes;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblSin;
         private System.Windows.Forms.TextBox txtVal2;
         private System.Windows.Forms.TextBox txtVal1;
         private System.Windows.Forms.Label label18;
@@ -484,6 +520,9 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button btnDividir;
+        private System.Windows.Forms.Button btnRestar;
+        private System.Windows.Forms.Button btnMultiplicar;
     }
 }
 
