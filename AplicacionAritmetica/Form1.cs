@@ -35,12 +35,13 @@ namespace AplicacionAritmetica
 
         private void button3_Click(object sender, System.EventArgs e)
         {
+            //JONAH
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
 
             resultado = val1 + val2;
-
+            lblSig.Text = resultado.ToString("+");
             lblRes.Text = resultado.ToString();
 
 
@@ -106,6 +107,42 @@ namespace AplicacionAritmetica
             resultadovale = valorvale1 / valorvale2;
 
             lblresultadov.Text = resultadovale.ToString();
+        }
+
+        private void button4_Click_1(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1 - val2;
+            lblSig.Text = resultado.ToString("-");
+            lblRes.Text = resultado.ToString();
+        }
+
+        private void button8_Click(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1 / val2;
+            lblSig.Text = resultado.ToString("/");
+            lblRes.Text = resultado.ToString();
+        }
+
+        private void button9_Click(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1 * val2;
+            lblSig.Text = resultado.ToString("*");
+            lblRes.Text = resultado.ToString();
         }
     }
 }
