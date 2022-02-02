@@ -32,10 +32,19 @@ namespace AplicacionAritmetica
         {
 
         }
-
+        public void condicion()
+        {
+            string val1 = txtValor1.Text;
+            string val2 = txtValor2.Text;
+            if (val1 == "" && val2 == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+            }
+        }
         private void button3_Click(object sender, System.EventArgs e)
         {
             //JONAH
+
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
@@ -45,6 +54,10 @@ namespace AplicacionAritmetica
             lblRes.Text = resultado.ToString();
 
 
+            /*if (Variable1 == "" || Variable2 == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+            }*/
 
         }
 
@@ -112,13 +125,23 @@ namespace AplicacionAritmetica
         private void button4_Click_1(object sender, System.EventArgs e)
         {
             //JONAH
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
+            int val1;
+            int val2;
             int resultado;
-
+            string var1 = txtVal1.Text;
+            string var2 = txtVal2.Text;
+            val1 = int.Parse(var1);
+            val2 = int.Parse(var2);
             resultado = val1 - val2;
             lblSig.Text = resultado.ToString("-");
             lblRes.Text = resultado.ToString();
+
+
+            if (var1 == "" || var2 == "")
+            {
+                MessageBox.Show("Faltan campos");
+            }
+
         }
 
         private void button8_Click(object sender, System.EventArgs e)
