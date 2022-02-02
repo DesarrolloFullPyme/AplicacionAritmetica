@@ -65,6 +65,47 @@ namespace AplicacionAritmetica
 
             lblresultadov.Text = resultadovale.ToString();
         }
-        
+
+        private void button6_Click(object sender, System.EventArgs e)
+        {
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
+
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 - valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
+        }
+
+        private void button7_Click(object sender, System.EventArgs e)
+        {
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
+
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 * valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
+        }
+
+        private void button5_Click(object sender, System.EventArgs e)
+        {
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
+
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 / valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
+        }
     }
 }
