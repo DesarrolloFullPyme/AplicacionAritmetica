@@ -35,13 +35,12 @@ namespace AplicacionAritmetica
 
         private void button3_Click(object sender, System.EventArgs e)
         {
-            // codigo jonah
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
 
             resultado = val1 + val2;
-            lblSin.Text = resultado.ToString("+");
+
             lblRes.Text = resultado.ToString();
 
 
@@ -50,7 +49,7 @@ namespace AplicacionAritmetica
 
         private void button4_Click(object sender, System.EventArgs e)
         {
-
+           
         }
 
         private void button2_Click(object sender, System.EventArgs e)
@@ -67,40 +66,46 @@ namespace AplicacionAritmetica
             lblresultadov.Text = resultadovale.ToString();
         }
 
-        private void btnRestar_Click(object sender, System.EventArgs e)
+        private void button6_Click(object sender, System.EventArgs e)
         {
-            // codigo jonah
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
 
-            resultado = val1 - val2;
-            lblSin.Text = resultado.ToString("-");
-            lblRes.Text = resultado.ToString();
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 - valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
         }
 
-        private void btnMultiplicar_Click(object sender, System.EventArgs e)
+        private void button7_Click(object sender, System.EventArgs e)
         {
-            // codigo jonah
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
 
-            resultado = val1 * val2;
-            lblSin.Text = resultado.ToString("*");
-            lblRes.Text = resultado.ToString();
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 * valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
         }
 
-        private void btnDividir_Click(object sender, System.EventArgs e)
+        private void button5_Click(object sender, System.EventArgs e)
         {
-            // codigo jonah
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int valorvale1;
+            int valorvale2;
+            int resultadovale;
 
-            resultado = val1 / val2;
-            lblSin.Text = resultado.ToString("/");
-            lblRes.Text = resultado.ToString();
+            valorvale1 = int.Parse(txtvalorv1.Text);
+            valorvale2 = int.Parse(txtvalorv2.Text);
+
+            resultadovale = valorvale1 / valorvale2;
+
+            lblresultadov.Text = resultadovale.ToString();
         }
     }
 }
