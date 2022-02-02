@@ -107,5 +107,61 @@ namespace AplicacionAritmetica
 
             lblresultadov.Text = resultadovale.ToString();
         }
+
+        private void button8_Click(object sender, System.EventArgs e)
+        {
+            int valorceci1;
+            int valorceci2;
+            int resultadovale;
+
+            valorceci1 = int.Parse(txtvalorc1.Text);
+            valorceci2 = int.Parse(txtvalorc2.Text);
+
+            resultadovale = valorceci1 + valorceci2;
+
+            lblresultadoceci.Text = resultadovale.ToString();
+        }
+
+        private void button9_Click(object sender, System.EventArgs e)
+        {
+            int valorceci1;
+            int valorceci2;
+            int resultadovale;
+
+            valorceci1 = int.Parse(txtvalorc1.Text);
+            valorceci2 = int.Parse(txtvalorc2.Text);
+
+            resultadovale = valorceci1 - valorceci2;
+
+            lblresultadoceci.Text = resultadovale.ToString();
+        }
+
+        private void button10_Click(object sender, System.EventArgs e)
+        {
+            int valorceci1;
+            int valorceci2;
+            int resultadovale;
+
+            valorceci1 = int.Parse(txtvalorc1.Text);
+            valorceci2 = int.Parse(txtvalorc2.Text);
+
+            resultadovale = valorceci1 * valorceci2;
+
+            lblresultadoceci.Text = resultadovale.ToString();
+        }
+
+        private void button11_Click(object sender, System.EventArgs e)
+        {
+            int valorceci1;
+            int valorceci2;
+            int resultadovale;
+
+            valorceci1 = int.Parse(txtvalorc1.Text);
+            valorceci2 = int.Parse(txtvalorc2.Text);
+
+            resultadovale = valorceci1 / valorceci2;
+
+            lblresultadoceci.Text = resultadovale.ToString();
+        }
     }
 }
