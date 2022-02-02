@@ -42,7 +42,7 @@ namespace AplicacionAritmetica
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.lblSig = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.txtVal2 = new System.Windows.Forms.TextBox();
             this.txtVal1 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -68,12 +68,22 @@ namespace AplicacionAritmetica
             this.txtvalorv1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.lblresultadoceci = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.txtvalorc2 = new System.Windows.Forms.TextBox();
+            this.txtvalorc1 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -196,11 +206,8 @@ namespace AplicacionAritmetica
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.lblSig);
+            this.groupBox2.Controls.Add(this.label17);
             this.groupBox2.Controls.Add(this.txtVal2);
             this.groupBox2.Controls.Add(this.txtVal1);
             this.groupBox2.Controls.Add(this.label16);
@@ -226,15 +233,15 @@ namespace AplicacionAritmetica
             this.label18.TabIndex = 9;
             this.label18.Text = "Calculadora Jonathan";
             // 
-            // lblSig
+            // label17
             // 
-            this.lblSig.AutoSize = true;
-            this.lblSig.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSig.Location = new System.Drawing.Point(421, 95);
-            this.lblSig.Name = "lblSig";
-            this.lblSig.Size = new System.Drawing.Size(17, 17);
-            this.lblSig.TabIndex = 8;
-            this.lblSig.Text = "+";
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.Location = new System.Drawing.Point(421, 95);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(17, 17);
+            this.label17.TabIndex = 8;
+            this.label17.Text = "+";
             // 
             // txtVal2
             // 
@@ -301,7 +308,7 @@ namespace AplicacionAritmetica
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(657, 110);
+            this.button3.Location = new System.Drawing.Point(657, 85);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 0;
@@ -498,6 +505,18 @@ namespace AplicacionAritmetica
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox4.Controls.Add(this.button11);
+            this.groupBox4.Controls.Add(this.button10);
+            this.groupBox4.Controls.Add(this.button9);
+            this.groupBox4.Controls.Add(this.button8);
+            this.groupBox4.Controls.Add(this.lblresultadoceci);
+            this.groupBox4.Controls.Add(this.label31);
+            this.groupBox4.Controls.Add(this.txtvalorc2);
+            this.groupBox4.Controls.Add(this.txtvalorc1);
+            this.groupBox4.Controls.Add(this.label30);
+            this.groupBox4.Controls.Add(this.label29);
+            this.groupBox4.Controls.Add(this.label28);
+            this.groupBox4.Controls.Add(this.label27);
             this.groupBox4.Location = new System.Drawing.Point(12, 498);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(761, 174);
@@ -505,35 +524,134 @@ namespace AplicacionAritmetica
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Bloque Cecilia";
             // 
-            // button4
+            // button11
             // 
-            this.button4.Location = new System.Drawing.Point(657, 81);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "RESTAR";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button11.Location = new System.Drawing.Point(601, 122);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(86, 21);
+            this.button11.TabIndex = 11;
+            this.button11.Text = "DIVIDIR";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
-            // button8
+            // button10
             // 
-            this.button8.Location = new System.Drawing.Point(657, 55);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "DIVIDIR";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button10.Location = new System.Drawing.Point(600, 95);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(86, 21);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "MULTI";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(646, 26);
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button9.Location = new System.Drawing.Point(600, 42);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(96, 23);
-            this.button9.TabIndex = 12;
-            this.button9.Text = "MULTIPLICAR";
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Size = new System.Drawing.Size(86, 21);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "RESTAR";
+            this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button8.Location = new System.Drawing.Point(600, 69);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(86, 21);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "SUMAR";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // lblresultadoceci
+            // 
+            this.lblresultadoceci.AutoSize = true;
+            this.lblresultadoceci.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblresultadoceci.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblresultadoceci.Location = new System.Drawing.Point(548, 81);
+            this.lblresultadoceci.Name = "lblresultadoceci";
+            this.lblresultadoceci.Size = new System.Drawing.Size(25, 15);
+            this.lblresultadoceci.TabIndex = 7;
+            this.lblresultadoceci.Text = "000";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label31.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label31.Location = new System.Drawing.Point(493, 81);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(14, 15);
+            this.label31.TabIndex = 6;
+            this.label31.Text = "=";
+            // 
+            // txtvalorc2
+            // 
+            this.txtvalorc2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtvalorc2.Location = new System.Drawing.Point(376, 73);
+            this.txtvalorc2.Name = "txtvalorc2";
+            this.txtvalorc2.Size = new System.Drawing.Size(100, 29);
+            this.txtvalorc2.TabIndex = 5;
+            // 
+            // txtvalorc1
+            // 
+            this.txtvalorc1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtvalorc1.Location = new System.Drawing.Point(229, 73);
+            this.txtvalorc1.Name = "txtvalorc1";
+            this.txtvalorc1.Size = new System.Drawing.Size(100, 29);
+            this.txtvalorc1.TabIndex = 4;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label30.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label30.Location = new System.Drawing.Point(345, 73);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(14, 15);
+            this.label30.TabIndex = 3;
+            this.label30.Text = "+";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label29.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label29.Location = new System.Drawing.Point(404, 48);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(44, 15);
+            this.label29.TabIndex = 2;
+            this.label29.Text = "Valor 2";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label28.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label28.Location = new System.Drawing.Point(261, 48);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(44, 15);
+            this.label28.TabIndex = 1;
+            this.label28.Text = "Valor 1";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label27.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label27.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label27.Location = new System.Drawing.Point(62, 73);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(98, 15);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Calculadora Ceci";
             // 
             // Form1
             // 
@@ -553,6 +671,8 @@ namespace AplicacionAritmetica
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -587,7 +707,7 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblRes;
-        private System.Windows.Forms.Label lblSig;
+        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtVal2;
         private System.Windows.Forms.TextBox txtVal1;
         private System.Windows.Forms.Label label18;
@@ -607,8 +727,18 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label lblresultadoceci;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox txtvalorc2;
+        private System.Windows.Forms.TextBox txtvalorc1;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button9;
     }
 }
 
