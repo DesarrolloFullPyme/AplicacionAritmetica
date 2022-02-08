@@ -67,18 +67,27 @@
 
             //JONAH
             int val1, val2, resultado;
-            if (txtVal1.Text == "" && txtVal2.Text == "")
+            if (txtVal1.Text == "")
             {
                 MessageBox.Show("Ingrese un campo");
             }
             else
-            { 
-                val1 = int.Parse(txtVal1.Text);
-                val2 = int.Parse(txtVal2.Text);
-                resultado = val1 + val2;
+            { if (txtVal2.Text == "") {
+                    MessageBox.Show("Ingrese un campo");
 
-                lblRes.Text = resultado.ToString();
-                lblSig.Text = "+"; 
+
+                }
+                else {
+                    val1 = int.Parse(txtVal1.Text);
+                    val2 = int.Parse(txtVal2.Text);
+                    resultado = val1 + val2;
+
+                    lblRes.Text = resultado.ToString();
+                    lblSig.Text = "+";
+
+
+                }
+                
             }
 
 
