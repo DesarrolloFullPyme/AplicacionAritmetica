@@ -186,7 +186,7 @@
             val1 = int.Parse(var1);
             val2 = int.Parse(var2);
             resultado = val1 - val2;
-           // lblSig.Text = resultado.ToString("-");
+            // lblSig.Text = resultado.ToString("-");
             lblRes.Text = resultado.ToString();
 
 
@@ -251,6 +251,44 @@
             resultadovale = valorceci1 / valorceci2;
 
             lblresultadoceci.Text = resultadovale.ToString();
+        }
+
+        private void BTNRestar_Click(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+
+            resultado = val1 - val2;
+            lblSig.Text = resultado.ToString("-");
+            lblRes.Text = resultado.ToString();
+        }
+
+        private void BTNMultiplicar_Click(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1 * val2;
+            lblSig.Text = resultado.ToString("*");
+            lblRes.Text = resultado.ToString();
+        }
+
+        private void BTNDividir_Click(object sender, System.EventArgs e)
+        {
+            //JONAH
+            int val1 = int.Parse(txtVal1.Text);
+            int val2 = int.Parse(txtVal2.Text);
+            int resultado;
+
+            resultado = val1 / val2;
+            lblSig.Text = resultado.ToString("/");
+            lblRes.Text = resultado.ToString();
+            
         }
     }
 }
