@@ -1,14 +1,25 @@
-﻿using System.Windows.Forms;
-
-namespace AplicacionAritmetica
+﻿namespace AplicacionAritmetica
 {
+    using System.Windows.Forms;
+
+    /// <summary>
+    /// Defines the <see cref="Form1" />.
+    /// </summary>
     public partial class Form1 : Form
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Form1"/> class.
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// The button1_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button1_Click(object sender, System.EventArgs e)
         {
             int valor1;
@@ -23,15 +34,27 @@ namespace AplicacionAritmetica
             lblResultado.Text = resultado.ToString();
         }
 
+        /// <summary>
+        /// The label7_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void label7_Click(object sender, System.EventArgs e)
         {
-
         }
 
+        /// <summary>
+        /// The label13_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void label13_Click(object sender, System.EventArgs e)
         {
-
         }
+
+        /// <summary>
+        /// The condicion.
+        /// </summary>
         public void condicion()
         {
             string val1 = txtValor1.Text;
@@ -41,13 +64,18 @@ namespace AplicacionAritmetica
                 MessageBox.Show("Ingrese un campo");
             }
         }
+
+        /// <summary>
+        /// The button3_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button3_Click(object sender, System.EventArgs e)
         {
-<<<<<<< HEAD
+
             //JONAH
 
-=======
->>>>>>> 55e67ddb6c33f6976ee0b75cf047a0b04642aad6
+
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
@@ -55,20 +83,22 @@ namespace AplicacionAritmetica
             resultado = val1 + val2;
 
             lblRes.Text = resultado.ToString();
-
-
-            /*if (Variable1 == "" || Variable2 == "")
-            {
-                MessageBox.Show("Ingrese un campo");
-            }*/
-
         }
 
+        /// <summary>
+        /// The button4_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button4_Click(object sender, System.EventArgs e)
         {
-
         }
 
+        /// <summary>
+        /// The button2_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button2_Click(object sender, System.EventArgs e)
         {
             int valorvale1;
@@ -83,6 +113,11 @@ namespace AplicacionAritmetica
             lblresultadov.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button6_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button6_Click(object sender, System.EventArgs e)
         {
             int valorvale1;
@@ -97,6 +132,11 @@ namespace AplicacionAritmetica
             lblresultadov.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button7_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button7_Click(object sender, System.EventArgs e)
         {
             int valorvale1;
@@ -111,6 +151,11 @@ namespace AplicacionAritmetica
             lblresultadov.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button5_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button5_Click(object sender, System.EventArgs e)
         {
             int valorvale1;
@@ -125,9 +170,13 @@ namespace AplicacionAritmetica
             lblresultadov.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button8_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button8_Click(object sender, System.EventArgs e)
         {
-<<<<<<< HEAD
             //JONAH
             int val1;
             int val2;
@@ -137,7 +186,7 @@ namespace AplicacionAritmetica
             val1 = int.Parse(var1);
             val2 = int.Parse(var2);
             resultado = val1 - val2;
-            lblSig.Text = resultado.ToString("-");
+           // lblSig.Text = resultado.ToString("-");
             lblRes.Text = resultado.ToString();
 
 
@@ -145,21 +194,13 @@ namespace AplicacionAritmetica
             {
                 MessageBox.Show("Faltan campos");
             }
-
-=======
-            int valorceci1;
-            int valorceci2;
-            int resultadovale;
-
-            valorceci1 = int.Parse(txtvalorc1.Text);
-            valorceci2 = int.Parse(txtvalorc2.Text);
-
-            resultadovale = valorceci1 + valorceci2;
-
-            lblresultadoceci.Text = resultadovale.ToString();
->>>>>>> 55e67ddb6c33f6976ee0b75cf047a0b04642aad6
         }
 
+        /// <summary>
+        /// The button9_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button9_Click(object sender, System.EventArgs e)
         {
             int valorceci1;
@@ -174,6 +215,11 @@ namespace AplicacionAritmetica
             lblresultadoceci.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button10_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button10_Click(object sender, System.EventArgs e)
         {
             int valorceci1;
@@ -188,6 +234,11 @@ namespace AplicacionAritmetica
             lblresultadoceci.Text = resultadovale.ToString();
         }
 
+        /// <summary>
+        /// The button11_Click.
+        /// </summary>
+        /// <param name="sender">The sender<see cref="object"/>.</param>
+        /// <param name="e">The e<see cref="System.EventArgs"/>.</param>
         private void button11_Click(object sender, System.EventArgs e)
         {
             int valorceci1;

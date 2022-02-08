@@ -1,15 +1,18 @@
-using System;
-using System.Windows.Forms;
-
 namespace AplicacionAritmetica
 {
-    static class Program
+    using System;
+    using System.Windows.Forms;
+
+    /// <summary>
+    /// Defines the <see cref="Program" />.
+    /// </summary>
+    internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        internal static void Main()
         {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
