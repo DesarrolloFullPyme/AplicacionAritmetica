@@ -277,7 +277,7 @@ namespace AplicacionAritmetica
             // 
             this.lblSig.AutoSize = true;
             this.lblSig.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSig.Location = new System.Drawing.Point(421, 95);
+            this.lblSig.Location = new System.Drawing.Point(421, 87);
             this.lblSig.Name = "lblSig";
             this.lblSig.Size = new System.Drawing.Size(17, 17);
             this.lblSig.TabIndex = 8;
@@ -285,7 +285,7 @@ namespace AplicacionAritmetica
             // 
             // txtVal2
             // 
-            this.txtVal2.Location = new System.Drawing.Point(450, 89);
+            this.txtVal2.Location = new System.Drawing.Point(450, 87);
             this.txtVal2.Name = "txtVal2";
             this.txtVal2.Size = new System.Drawing.Size(72, 23);
             this.txtVal2.TabIndex = 7;

@@ -57,6 +57,7 @@
         /// </summary>
         public void condicion()
         {
+            //jonAH
             string val1 = txtValor1.Text;
             string val2 = txtValor2.Text;
             if (val1 == "" && val2 == "")
@@ -75,7 +76,7 @@
 
             //JONAH
 
-
+            condicion();
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
@@ -256,6 +257,7 @@
         private void BTNRestar_Click(object sender, System.EventArgs e)
         {
             //JONAH
+            condicion();
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
             int resultado;
@@ -268,6 +270,7 @@
 
         private void BTNMultiplicar_Click(object sender, System.EventArgs e)
         {
+            condicion();
             //JONAH
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
@@ -280,6 +283,7 @@
 
         private void BTNDividir_Click(object sender, System.EventArgs e)
         {
+            condicion();
             //JONAH
             int val1 = int.Parse(txtVal1.Text);
             int val2 = int.Parse(txtVal2.Text);
