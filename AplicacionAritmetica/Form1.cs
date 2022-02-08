@@ -205,14 +205,14 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadovale;
+            int resultadoceci;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadovale = valorceci1 - valorceci2;
+            resultadoceci = valorceci1 - valorceci2;
 
-            lblresultadoceci.Text = resultadovale.ToString();
+            lblresultadoceci.Text = resultadoceci.ToString();
         }
 
         /// <summary>
@@ -224,14 +224,14 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadovale;
+            int resultadoceci;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadovale = valorceci1 * valorceci2;
+            resultadoceci = valorceci1 * valorceci2;
 
-            lblresultadoceci.Text = resultadovale.ToString();
+            lblresultadoceci.Text = resultadoceci.ToString();
         }
 
         /// <summary>
@@ -243,14 +243,14 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadovale;
+            int resultadoceci;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadovale = valorceci1 / valorceci2;
+            resultadoceci = valorceci1 / valorceci2;
 
-            lblresultadoceci.Text = resultadovale.ToString();
+            lblresultadoceci.Text = resultadoceci.ToString();
         }
 
         private void BTNRestar_Click(object sender, System.EventArgs e)
@@ -288,7 +288,24 @@
             resultado = val1 / val2;
             lblSig.Text = resultado.ToString("/");
             lblRes.Text = resultado.ToString();
-            
+
+        }
+
+        private void button3_Click_1(object sender, System.EventArgs e)
+        {
+
+            int valorceci1;
+            int valorceci2;
+            int resultadoceci;
+
+            valorceci1 = int.Parse(txtvalorc1.Text);
+            valorceci2 = int.Parse(txtvalorc2.Text);
+
+            resultadoceci = valorceci1 + valorceci2;
+
+            lblresultadoceci.Text = resultadoceci.ToString();
+
+
         }
     }
 }

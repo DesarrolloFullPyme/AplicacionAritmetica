@@ -77,7 +77,6 @@ namespace AplicacionAritmetica
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.lblresultadoceci = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.txtvalorc2 = new System.Windows.Forms.TextBox();
@@ -86,6 +85,7 @@ namespace AplicacionAritmetica
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -545,13 +545,13 @@ namespace AplicacionAritmetica
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox4.Controls.Add(this.button3);
             this.groupBox4.Controls.Add(this.label34);
             this.groupBox4.Controls.Add(this.label33);
             this.groupBox4.Controls.Add(this.label32);
             this.groupBox4.Controls.Add(this.button11);
             this.groupBox4.Controls.Add(this.button10);
             this.groupBox4.Controls.Add(this.button9);
-            this.groupBox4.Controls.Add(this.button8);
             this.groupBox4.Controls.Add(this.lblresultadoceci);
             this.groupBox4.Controls.Add(this.label31);
             this.groupBox4.Controls.Add(this.txtvalorc2);
@@ -625,24 +625,13 @@ namespace AplicacionAritmetica
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button9.Location = new System.Drawing.Point(600, 42);
+            this.button9.Location = new System.Drawing.Point(599, 42);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(86, 21);
             this.button9.TabIndex = 9;
             this.button9.Text = "RESTAR";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button8.Location = new System.Drawing.Point(600, 69);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(86, 21);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "SUMAR";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // lblresultadoceci
             // 
@@ -729,6 +718,17 @@ namespace AplicacionAritmetica
             this.label27.TabIndex = 0;
             this.label27.Text = "Calculadora Ceci";
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button3.Location = new System.Drawing.Point(599, 67);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(86, 21);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "SUMAR";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -803,7 +803,6 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label lblresultadoceci;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.TextBox txtvalorc2;
@@ -820,6 +819,7 @@ namespace AplicacionAritmetica
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button BTNRestar;
         private System.Windows.Forms.Button BTNDividir;
+        private System.Windows.Forms.Button button3;
     }
 }
 
