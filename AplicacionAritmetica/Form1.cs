@@ -55,16 +55,7 @@
         /// <summary>
         /// The condicion.
         /// </summary>
-        public void condicion()
-        {
-            //jonAH
-            string val1 = txtValor1.Text;
-            string val2 = txtValor2.Text;
-            if (val1 == "" && val2 == "")
-            {
-                MessageBox.Show("Ingrese un campo");
-            }
-        }
+
 
         /// <summary>
         /// The button3_Click.
@@ -75,15 +66,23 @@
         {
 
             //JONAH
+            int val1, val2, resultado;
+            if (txtVal1.Text == "" && txtVal2.Text == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+            }
+            else
+            { 
+                val1 = int.Parse(txtVal1.Text);
+                val2 = int.Parse(txtVal2.Text);
+                resultado = val1 + val2;
 
-            condicion();
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+                lblRes.Text = resultado.ToString();
+                lblSig.Text = "+"; 
+            }
 
-            resultado = val1 + val2;
 
-            lblRes.Text = resultado.ToString();
+
         }
 
         /// <summary>
@@ -206,14 +205,14 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadoceci;
+            int resultadovale;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadoceci = valorceci1 - valorceci2;
+            resultadovale = valorceci1 - valorceci2;
 
-            lblresultadoceci.Text = resultadoceci.ToString();
+            lblresultadoceci.Text = resultadovale.ToString();
         }
 
         /// <summary>
@@ -225,14 +224,14 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadoceci;
+            int resultadovale;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadoceci = valorceci1 * valorceci2;
+            resultadovale = valorceci1 * valorceci2;
 
-            lblresultadoceci.Text = resultadoceci.ToString();
+            lblresultadoceci.Text = resultadovale.ToString();
         }
 
         /// <summary>
@@ -244,71 +243,79 @@
         {
             int valorceci1;
             int valorceci2;
-            int resultadoceci;
+            int resultadovale;
 
             valorceci1 = int.Parse(txtvalorc1.Text);
             valorceci2 = int.Parse(txtvalorc2.Text);
 
-            resultadoceci = valorceci1 / valorceci2;
+            resultadovale = valorceci1 / valorceci2;
 
-            lblresultadoceci.Text = resultadoceci.ToString();
+            lblresultadoceci.Text = resultadovale.ToString();
         }
 
         private void BTNRestar_Click(object sender, System.EventArgs e)
         {
             //JONAH
-            condicion();
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int val1, val2, resultado;
+            if (txtVal1.Text == "" && txtVal2.Text == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+                lblSig.Text = "-";
+            }
+            else
+            {
+                val1 = int.Parse(txtVal1.Text);
+                val2 = int.Parse(txtVal2.Text);
+                resultado = val1 - val2;
+
+                lblRes.Text = resultado.ToString();
+                lblSig.Text = "-";
+            }
 
 
-            resultado = val1 - val2;
-            lblSig.Text = resultado.ToString("-");
-            lblRes.Text = resultado.ToString();
+
         }
 
         private void BTNMultiplicar_Click(object sender, System.EventArgs e)
         {
-            condicion();
             //JONAH
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int val1, val2, resultado;
+            if (txtVal1.Text == "" && txtVal2.Text == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+                lblSig.Text = "*";
+            }
+            else
+            {
+                val1 = int.Parse(txtVal1.Text);
+                val2 = int.Parse(txtVal2.Text);
+                resultado = val1 * val2;
 
-            resultado = val1 * val2;
-            lblSig.Text = resultado.ToString("*");
-            lblRes.Text = resultado.ToString();
+                lblRes.Text = resultado.ToString();
+                lblSig.Text = "*";
+            }
         }
 
         private void BTNDividir_Click(object sender, System.EventArgs e)
         {
-            condicion();
+            
+            
             //JONAH
-            int val1 = int.Parse(txtVal1.Text);
-            int val2 = int.Parse(txtVal2.Text);
-            int resultado;
+            int val1, val2, resultado;
+            if (txtVal1.Text == "" && txtVal2.Text == "")
+            {
+                MessageBox.Show("Ingrese un campo");
+                lblSig.Text = "/";
+            }
+            else
+            {
+                val1 = int.Parse(txtVal1.Text);
+                val2 = int.Parse(txtVal2.Text);
+                resultado = val1 /val2;
 
-            resultado = val1 / val2;
-            lblSig.Text = resultado.ToString("/");
-            lblRes.Text = resultado.ToString();
-
-        }
-
-        private void button3_Click_1(object sender, System.EventArgs e)
-        {
-
-            int valorceci1;
-            int valorceci2;
-            int resultadoceci;
-
-            valorceci1 = int.Parse(txtvalorc1.Text);
-            valorceci2 = int.Parse(txtvalorc2.Text);
-
-            resultadoceci = valorceci1 + valorceci2;
-
-            lblresultadoceci.Text = resultadoceci.ToString();
-
+                lblRes.Text = resultado.ToString();
+                lblSig.Text = "/";
+            }
 
         }
     }
